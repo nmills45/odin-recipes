@@ -1,12 +1,40 @@
 body {
     background-color:seashell;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
     color:black;
+   
 }
 
 img {
     height: 400px;
     width:450px;
+    border: thick groove #555;
+    
+    
 }
 
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    background-color: #f1f1f1;
+    border: thick groove #555;  
+    
+  }
+  
+  li a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: thick groove #555;
+    
+    }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+ 

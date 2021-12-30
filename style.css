@@ -22,7 +22,7 @@ img {
 .nav-list {
     list-style-type: none;
     width: 450px;
-    background-color: white;
+    background-color: lightgray;
     border: thick groove #555;  
     display: inline-block;
   }

@@ -1,13 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 html {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color:black;
-    text-align: center;
 }
 
 body {
-    background-color:azure;
-    
-   
+  background: content-box radial-gradient(white,rgb(167, 245, 245));
+  text-align: left;
+  
 }
 
   
@@ -15,24 +20,23 @@ body {
 img {
     height: 400px;
     width:450px;
-    border: thick groove #555;
+    border: medium groove #555;
     
     }
 
-.nav-list {
+#nav-list {
     list-style-type: none;
     width: 450px;
-    background-color: lightgray;
-    border: thick groove #555;  
-    display: inline-block;
+    background-color: snow;
+    border: medium groove #555;
+
   }
   
   li a {
-    text-align: center;
     color: black;
-    padding: 8px 16px;
+    
     text-decoration: none;
-    border-bottom: thick groove #555;
+    border-bottom: medium groove #555;
     
     }
   
@@ -42,9 +46,7 @@ img {
     color: white;
   }
 
-  li {
-      text-align:justify;
-  }
+
 
  .author {
     color:#555;
@@ -66,3 +68,18 @@ img {
  #index-link:hover {
   background-color: silver;
  }
+
+ .columns {
+   display: grid;
+   gap: 10%;
+   grid-template-rows: 10% 10% 10%;
+   
+   
+  }
+
+.content {
+  max-width: 450px;
+  margin:auto;
+  text-align: center;
+}
+ 
